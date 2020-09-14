@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Новостное агентство</title>
+	<link rel="stylesheet" type="text/css" href="s.css">
+</head>
+<body>
+	<div id="black-bar">
+		<div class="fixed-container">
+			Самые <a href="#">свежие новости</a> в реальном времени
+			<div id="datetime">01:31 14.09.2020</div>
+		</div>
+	</div>
+	<div id="header">
+		<div class="fixed-container">
+			<img id="logo" src="img/logo.png">
+
+			<div class="select">
+				<select>
+						<option value="Киев"><p>Киев</p></option>
+						<option selected value="Харьков">Харьков</option>
+						<option value="Львов">Львов</option>
+				</select>
+			</div>
+			
+			<div class="search">
+				<input type="text" name="" id="" class="search__input" placeholder="Поиск по сайту">
+				<a href="#" class="search__btn">
+					<img class="btn__pic" src="img/search.png" alt="Поиск">
+				</a>
+			</div>
+			<div class="weather">
+				<img class="weather__pic" src="img/weather.png" alt="Погода">
+				<p class="weather__deg">+36<sup>o</sup>C</p>
+			</div>
+			<div class="clock">
+				<img class="clock__pic" src="img/time.png" alt="Погода">
+				<p class="clock__time">03:09</p>
+			</div>
+			<p class="day">14 сенятбря, понедельник</p>
+		</div>
+
+	</div>
+	<div id="menu-container">
+		<div class="fixed-container">
+			<ul>
+				<li class="active"><a href="#">Главная</a></li>
+				<li><a href="#">Политика</a></li>
+				<li><a href="#">Общество</a></li>
+				<li><a href="#">Экономика</a></li>
+				<li><a href="#">Проиcшествия</a></li>
+				<li><a href="#">Спорт</a></li>
+				<li><a href="#">Наука</a></li>
+				<li><a href="#">Туризм</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="central-container">
+		<div class="fixed-container">
+			<div id="column-left">
+				<h2>Новости дня</h2>
+				<div class="news-item">
+					<div class="news-item-text">
+						Сборная по хоккею Демократической Республики Конго победила сборную команду Канады ЧМ-2020
+					</div>
+					<div class="news-item-props">
+						<a href="#">/ЧМ по хоккею</a>
+						<div class="news-time">04:15</div>
+						<div class="news-comments-count">17</div>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="news-item-text">
+						Разгадана загадка Снежного Человека. Это оказывается...
+					</div>
+					<div class="news-item-props">
+						<a href="#">/сенсации</a>
+						<div class="news-time">07:40</div>
+						<div class="news-comments-count">17</div>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="news-item-text">
+						Подводная лодка Лихтенштейна всплыла возле берегов Беларуси
+					</div>
+					<div class="news-item-props">
+						<a href="#">/политика</a>
+						<div class="news-time">07:45</div>
+						<div class="news-comments-count">17</div>
+					</div>
+				</div>
+			</div>
+			<div id="column-center">
+				Рыбный текст о рыбной рыбе, которая урыбнулась, написала этот текст и уплыла нереститься на Серверный Полюс. При чем это не полюс магнита, а самый настоящий геошрафический.
+			</div>
+			<div id="column-right">
+				<img src="img/banner-1.png">
+				<img src="img/banner-2.png">
+			</div>
+		</div>
+		<div class="fixed-container">
+			<div id="special-news">
+				Дальнейший рассказ про рыбу...
+			</div>
+		</div>
+	</div>
+</body>
+</html>
