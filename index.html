@@ -7,17 +7,19 @@
 	<link rel="stylesheet" type="text/css" href="s.css">
 </head>
 <body>
-	<div id="black-bar">
+	<div class="black-bar">
 		<div class="fixed-container">
-			Самые <a href="#">свежие новости</a> в реальном времени
-			<div id="datetime">01:31 14.09.2020</div>
+			<div class="black-bar__title">
+				Самые <a class="black-bar__link" href="#">свежие новости</a> в реальном времени
+			</div>
+			<div class="black-bar__datetime">01:31 14.09.2020</div>
 		</div>
 	</div>
-	<div id="header">
+	<header class="header">
 		<div class="fixed-container">
-			<img id="logo" src="img/logo.png">
+			<img class="header__logo" src="img/logo.png">
 
-			<div class="select">
+			<div class="header__select">
 				<select>
 						<option value="Киев"><p>Киев</p></option>
 						<option selected value="Харьков">Харьков</option>
@@ -25,86 +27,86 @@
 				</select>
 			</div>
 			
-			<div class="search">
+			<div class="header__search">
 				<input type="text" name="" id="" class="search__input" placeholder="Поиск по сайту">
 				<a href="#" class="search__btn">
-					<img class="btn__pic" src="img/search.png" alt="Поиск">
+					<img class="search__pic" src="img/search.png" alt="Поиск">
 				</a>
 			</div>
-			<div class="weather">
+			<div class="header__weather">
 				<img class="weather__pic" src="img/weather.png" alt="Погода">
 				<p class="weather__deg">+36<sup>o</sup>C</p>
 			</div>
-			<div class="clock">
+			<div class="header__clock">
 				<img class="clock__pic" src="img/time.png" alt="Погода">
 				<p class="clock__time">03:09</p>
 			</div>
-			<p class="day">14 сенятбря, понедельник</p>
+			<p class="header__day">14 сенятбря, понедельник</p>
 		</div>
 
-	</div>
-	<div id="menu-container">
+	</header>
+	<nav class="menu-container">
 		<div class="fixed-container">
-			<ul>
-				<li class="active"><a href="#">Главная</a></li>
-				<li><a href="#">Политика</a></li>
-				<li><a href="#">Общество</a></li>
-				<li><a href="#">Экономика</a></li>
-				<li><a href="#">Проиcшествия</a></li>
-				<li><a href="#">Спорт</a></li>
-				<li><a href="#">Наука</a></li>
-				<li><a href="#">Туризм</a></li>
+			<ul class="list">
+				<li class="list__item active"><a href="#">Главная</a></li>
+				<li class="list__item"><a href="#">Политика</a></li>
+				<li class="list__item"><a href="#">Общество</a></li>
+				<li class="list__item"><a href="#">Экономика</a></li>
+				<li class="list__item"><a href="#">Проиcшествия</a></li>
+				<li class="list__item"><a href="#">Спорт</a></li>
+				<li class="list__item"><a href="#">Наука</a></li>
+				<li class="list__item"><a href="#">Туризм</a></li>
 			</ul>
 		</div>
-	</div>
-	<div id="central-container">
+	</nav>
+	<main class="page">
 		<div class="fixed-container">
-			<div id="column-left">
-				<h2>Новости дня</h2>
+			<aside class="sidebar-left">
+				<h2 class="sidebar-left__title">Новости дня</h2>
 				<div class="news-item">
-					<div class="news-item-text">
+					<div class="news-item__text">
 						Сборная по хоккею Демократической Республики Конго победила сборную команду Канады ЧМ-2020
 					</div>
-					<div class="news-item-props">
+					<div class="news-item__props">
 						<a href="#">/ЧМ по хоккею</a>
-						<div class="news-time">04:15</div>
-						<div class="news-comments-count">17</div>
+						<div class="props__news-time">04:15</div>
+						<div class="props__news-comments-count">17</div>
 					</div>
 				</div>
 				<div class="news-item">
-					<div class="news-item-text">
+					<div class="news-item__text">
 						Разгадана загадка Снежного Человека. Это оказывается...
 					</div>
-					<div class="news-item-props">
+					<div class="news-item__props">
 						<a href="#">/сенсации</a>
-						<div class="news-time">07:40</div>
-						<div class="news-comments-count">17</div>
+						<div class="props__news-time">07:40</div>
+						<div class="props__news-comments-count">17</div>
 					</div>
 				</div>
 				<div class="news-item">
-					<div class="news-item-text">
+					<div class="news-item__text">
 						Подводная лодка Лихтенштейна всплыла возле берегов Беларуси
 					</div>
-					<div class="news-item-props">
+					<div class="news-item__props">
 						<a href="#">/политика</a>
-						<div class="news-time">07:45</div>
-						<div class="news-comments-count">17</div>
+						<div class="props__news-time">07:45</div>
+						<div class="props__news-comments-count">17</div>
 					</div>
 				</div>
-			</div>
-			<div id="column-center">
+			</aside>
+			<section class="main-content">
 				Рыбный текст о рыбной рыбе, которая урыбнулась, написала этот текст и уплыла нереститься на Серверный Полюс. При чем это не полюс магнита, а самый настоящий геошрафический.
-			</div>
-			<div id="column-right">
+			</section>
+			<aside class="sidebar-right">
 				<img src="img/banner-1.png">
 				<img src="img/banner-2.png">
-			</div>
+			</aside>
 		</div>
 		<div class="fixed-container">
-			<div id="special-news">
+			<section class="special-news">
 				Дальнейший рассказ про рыбу...
-			</div>
+			</section>
 		</div>
-	</div>
+	</main>
 </body>
 </html>
