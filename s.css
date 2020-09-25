@@ -11,7 +11,7 @@ html, body {
 }
 
 .fixed-container {
-	width: 960px;
+	width: 1000px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -232,12 +232,70 @@ html, body {
 		}
 /* Center */
 .main-content {
-	background-color: green;
-	width: 420px;
+	/* background-color: green; */
+	width: 460px;
 	margin-left: 20px;
 	float: left;
 }
 
+.new__main {
+	background: url(img/big-new.png);
+	color: #fff;
+	font-size: 12px;
+	height: 322px;
+	/* overflow-y: hidden; */
+
+}
+
+.new__section {
+	position: relative;
+	padding-top: 110px;
+	padding-left: 25px;
+}
+
+.new__title {
+	padding-left: 25px;
+	padding-top: 20px;
+	position: relative;
+	font-size: 30px;
+}
+
+.new__day {
+	padding-left: 25px;
+	padding-top: 25px;
+	/* position: relative; */
+	float: left;
+}
+
+.new__time {
+	padding-left: 20px;
+	padding-top: 25px;
+	/* position: relative; */
+	float: left;
+}
+
+
+
+
+.news__item {
+	padding-top: 20px;
+	float: left;
+	width: 220px;
+}
+
+.news__item:nth-child(even) {
+	padding-left: 20px;
+} 
+
+.news__link {
+	color: #000;
+	text-decoration: none;
+}
+
+.news__title {
+	height: 80px;
+
+}
 
 
 .sidebar-right {
