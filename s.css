@@ -356,3 +356,54 @@ html, body {
 	float: right;
 }
 
+/* Footer */
+.footer {
+	margin-top: 20px;
+	height: 260px;
+	background-color: #00122f;
+	border-bottom: 1px solid #26354e;
+}
+
+.footer__1,.footer__2 {
+	/* width: 80px; */
+	float: left;
+	padding-top: 55px;
+}
+
+.footer__1 a,.footer__2 a,.footer__center a,.footer__contacts a  {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.footer__1 a:not(:first-child),.footer__2 a:not(:first-child),.footer__center a,.footer__contacts a {
+	display: block;
+	padding-top: 20px;
+}
+
+.footer__2 {
+	padding-left: 60px;
+}
+
+.footer__center {
+	float: left;
+	padding-top: 60px;
+	padding-left: 200px;
+}
+
+.footer__contacts {
+	float: right;
+	padding-top: 55px;
+}
+
+.copy {
+	height: 50px;
+	background-color: #00122f;
+}
+
+.copy p {
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+
