@@ -230,6 +230,19 @@ html, body {
 			background-image: url('img/icon-comments.png');
 			background-repeat: no-repeat;
 		}
+
+.all {
+	display: block;
+	color: #448ccb;
+	text-decoration: none;
+	border: 1px solid #448ccb;
+	width: 92px;
+	/* height: 45px; */
+	border-radius: 25px;
+	margin: 0 auto;
+	padding: 15px 43px;
+	margin-bottom: 25px;
+}
 /* Center */
 .main-content {
 	width: 460px;
@@ -376,10 +389,15 @@ html, body {
 
 }
 
-.footer__1 a:not(:first-child),.footer__2 a:not(:first-child),.footer__center a,.footer__contacts a {
+.footer__1 a:not(:first-child),.footer__2 a:not(:first-child),.footer__center a:not(:first-child),.tel,.mail {
 	display: block;
 	padding-top: 20px;
 }
+
+.vk,.f,.tw,.ig {
+	display: inline-block;
+}
+
 
 .footer__2 {
 	padding-left: 60px;
@@ -394,6 +412,7 @@ html, body {
 .footer__contacts {
 	float: right;
 	padding-top: 55px;
+	width: 180px;
 }
 
 .copy {
