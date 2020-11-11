@@ -31,7 +31,7 @@
 				</select>
 			</div>
 
-			<div class="header__search">
+			<!-- <div class="header__search">
 				<input type="text" name="" id="" class="search__input" placeholder="Поиск по сайту">
 				<a href="#" class="search__btn">
 					<img class="search__pic" src="img/search.png" alt="Поиск">
@@ -45,12 +45,32 @@
 				<img class="clock__pic" src="img/time.png" alt="Погода">
 				<p class="clock__time">03:09</p>
 			</div>
+			<p class="header__day">14 сенятбря, понедельник</p> -->
 			<p class="header__day">14 сенятбря, понедельник</p>
+			<div class="header__clock">
+				<img class="clock__pic" src="img/time.png" alt="Погода">
+				<p class="clock__time">03:09</p>
+			</div>
+			<div class="header__weather">
+				<img class="weather__pic" src="img/weather.png" alt="Погода">
+				<p class="weather__deg">+36<sup>o</sup>C</p>
+			</div>
+			<div class="header__search">
+				<input type="text" name="" id="" class="search__input" placeholder="Поиск по сайту">
+				<a href="#" class="search__btn">
+					<img class="search__pic" src="img/search.png" alt="Поиск">
+				</a>
+			</div>
 		</div>
 
 	</header>
 	<nav class="menu-container">
 		<div class="fixed-container">
+			<div class="burger-wrapper">
+				<div class="burger">
+					<span></span>
+				</div>
+			</div>
 			<ul class="list">
 				<li class="list__item active"><a href="#">Главная</a></li>
 				<li class="list__item"><a href="#">Политика</a></li>
@@ -266,10 +286,12 @@
 				<a href="mailto:a@gmail.com" class="mail">&#x2709; info@agency.ru</a>
 			</div>
 		</div>
-	</footer>
+	</footer> 
 	<div class="copy">
-		<p>&copy; Хвастовстное агентство,2020 все права зачищены</p>
+		<p>&copy; Хвастовстное агеньтство, 2020 <span class="rights">все права зачищены</span></p>
 	</div>
+	<script src="js/jQmin351.js"></script>
+	<script src="js/s.js"></script>
 </body>
 
 </html>
