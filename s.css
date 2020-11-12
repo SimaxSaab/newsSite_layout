@@ -249,7 +249,7 @@ html, body {
 	margin: 0 auto;
 	padding: 15px 43px;
 	margin-bottom: 25px;
-	overflow-wrap: break-word;
+	white-space: nowrap;
 }
 /* Center */
 .main-content {
