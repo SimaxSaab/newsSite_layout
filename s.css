@@ -408,7 +408,11 @@ html, body {
 .footer__1 a,.footer__2 a,.footer__center a,.footer__contacts a  {
 	text-decoration: none;
 	color: #fff;
+}
 
+.footer__1 a:hover,.footer__2 a:hover,.footer__center a:hover,.footer__contacts a:hover  {
+	text-decoration: underline;
+	opacity: 0.5;
 }
 
 .footer__1 a:not(:first-child),.footer__2 a:not(:first-child),.footer__center a:not(:first-child),.tel,.mail {
